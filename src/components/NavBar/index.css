@@ -1,0 +1,52 @@
+/* Write your code here. */
+.nav-bar-container {
+  width: 100%;
+  background-color: #ffffff30;
+  display: flex;
+  justify-content: space-between;
+  height: 65px;
+  padding-left: 35px;
+  padding-right: 35px;
+}
+
+.navbar-logo-container {
+  display: flex;
+  align-items: center;
+}
+
+.emoji-logo {
+  height: 30px;
+}
+
+.game-title {
+  color: #ffffff;
+  font-weight: bold;
+}
+
+.score-container {
+  display: flex;
+  align-items: center;
+  font-weight: 500;
+  color: #ffffff;
+}
+
+.score {
+  margin-right: 10px;
+}
+
+@media (min-width: 768px) {
+  .nav-bar-container {
+    padding-left: 60px;
+    padding-right: 60px;
+    height: 80px;
+  }
+  .emoji-logo {
+    height: 50px;
+  }
+  .game-title {
+    font-size: 22px;
+  }
+  .score-container {
+    font-size: 20px;
+  }
+}

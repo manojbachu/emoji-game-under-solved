@@ -1,0 +1,29 @@
+/* Write your code here. */
+.emoji-game-container {
+  height: 100vh;
+  background-image: linear-gradient(#9796f0, #fbc7d4);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100vw;
+}
+
+.emoji-card-list-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 100%;
+  padding: 20px;
+}
+
+@media (min-width: 767px) {
+  .emoji-card-list-container {
+    width: 85%;
+  }
+}
+
+@media (min-width: 1200px) {
+  .emoji-card-list-container {
+    width: 60%;
+  }
+}
